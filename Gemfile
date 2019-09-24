@@ -17,7 +17,11 @@ group :development, :test do
   gem'rspec-rails'
   gem'shoulda-matchers'
   gem'factory_bot_rails'
+<<<<<<< HEAD
   gem 'cucumber-rails', require: false
+=======
+  gem'cucumber-rails',require: false
+>>>>>>> faf54939d251740a266a1dc80fd9fafaab7ddd0e
   gem 'database_cleaner'
 end
 
