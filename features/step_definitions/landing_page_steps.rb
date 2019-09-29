@@ -12,23 +12,23 @@ Given("the following articles exists") do |table|
   end
 end
 
-Given("I visit the {string} page") do |string|
-  visit root_path
-end
+# Given("I visit the {string} page") do |string|
+#   visit root_path
+# end
 
-When("I click {string} link") do |string|
- click_link(string)
+# When("I click {string} link") do |string|
+#  click_link(string)
   
-end
+# end
 
-When("I fill in {string} with {string}") do |string,string2|
-  fill_in(string, :with => string2)
-end
+# When("I fill in {string} with {string}") do |string,string2|
+#   fill_in(string, :with => string2)
+# end
 
-When("I click {string} button") do |string|
-  click_button(string)
-end
+# When("I click {string} button") do |string|
+#   click_button(string)
+# end
 
-Then("I should be on {string} page") do |string|
-  expect(page).to have_(string)
-end
+# Then("I should be on {string} page") do |string|
+#   expect(page).to have_(string)
+# end
