@@ -26,8 +26,8 @@
   </p>
  
   <p>
-    <%= form.label :text %><br>
-    <%= form.text_area :text %>
+    <%= form.label :content %><br>
+    <%= form.text_area :content %>
   </p>
  
   <p>
@@ -36,4 +36,4 @@
  
 <% end %>
  
-<%= link_to 'Back', articles_path %>
+<%= link_to 'Back', articles_path(@article) %>

@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  get 'landing/index'
   
-  resources :articles do
+  resources :article
   resources :comments
-  
-  root 'welcome#index'
+  root controller: :landing, action: :index
+ 
+  root 'landing#index'
+  get 'articles/new' => "articles#new", as: :articles_new_get
 end
-end
+
 
